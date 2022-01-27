@@ -28,6 +28,7 @@ Exposes a single GET endpoint(/api/users) that will return all the users, regist
 * Open the Command Line and go to the project home directory (/user.service)
 * Run below commands to build image
 > mvn clean install
+
 > docker build -t myservices/user.service .
 * Deploy / Run the image
 > docker run -p 8080:8080 myservices/user.service
